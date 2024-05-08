@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Webpage</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-image: url('cancer.jpeg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size:140%;
+		}
+		img {
+			max-width: 100%;
+		height: auto;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr 1fr;
+			grid-template-areas:
+				"left left"
+				"top top"
+				"right bottom";
+			grid-gap: 50px;
+		}
+		.left {
+			grid-area: left;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.top {
+			grid-area: top;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.right {
+			grid-area: right;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.bottom {
+			grid-area: bottom;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.topic {
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="left">
+			<h2><B>CANCER</B></h2>
+			<p class="topic">Cancer ♋ (Greek: Καρκίνος, romanized: Karkínos, Latin for the "Crab") is the fourth astrological
+				 sign in the zodiac, originating from the constellation of Cancer. It spans from 90° to 120° celestial longitude.
+				  Under the tropical zodiac, the Sun transits this area between approximately June 22 and July 22.
+
+				In astrology, Cancer is the cardinal sign of the Water trigon, which is made up of Cancer, Pisces, and Scorpio.
+				 It is one of the six negative signs, and its ruling planet is the Moon. Though some depictions of Cancer feature a 
+				 lobster or crayfish, the sign is most often represented by the crab</p>
+		</div>
+		<div class="top">
+			<h2><b>INDIAN MYTHOLOGY</b></h2>
+			<p class="topic">Karkaṭa, also referred to as Karka or Karkatha, is a month in the Indian solar calendar. It corresponds to the zodiacal sign of Cancer, and overlaps approximately with the later half of July and early half of August in the Gregorian calendar.</p>
+		</div>
+		<div class="right">
+			<h2><b>HISTORY</b></h2>
+			<p class="topic">Cancer is the fourth sign of the zodiac, which the sun enters at the summer solstice in the Northern
+				 Hemisphere Those who are born from approximately June 22 to July 22 (depending upon the year) are born under Cancer.
+				 Individuals born during these dates, depending on which system of astrology they subscribe to, may be called "Cancerians".[4] Cancer is a northern sign, and its opposite sign is Capricorn.[5][6][7] Cancer is a cardinal sign.
+
+				Water is the element associated with Cancer.</p>
+		</div>
+		<div class="bottom">
+			<h2><b>GREEK MYTHOLOGY</b></h2>
+			<p class="topic">According to Greek myth, the symbol of Cancer—often a crab, though sometimes a lobster—is based on the Karkinos (Greek: "Cancer"), a crab crushed under the foot of Heracles, and whose remains were placed in the sky by Hera, forming the Cancer constellation.[4] In Roman variations of the story, it is Juno—Hera's counterpart in Roman mythology—who places the crab in the sky.[16] Naturalist Richard Hinckley Allen, in 1899, deemed Cancer the "most inconspicuous figure in the zodiac," adding that its mythology "apologizes for its being there by the story that when the Crab was crushed by Hercules, for pinching his toes during a contest with the Hydra in the Marsh of Lerna, Juno exalted it to the sky.".</p>
+		</div>
+	</div>
+</body>
+</html>

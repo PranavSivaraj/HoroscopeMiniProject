@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Webpage</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-image: url('leo.jpeg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size:100%;
+		}
+		img {
+			max-width: 100%;
+		height: auto;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr 1fr;
+			grid-template-areas:
+				"left left"
+				"top top"
+				"right bottom";
+			grid-gap: 50px;
+		}
+		.left {
+			grid-area: left;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.top {
+			grid-area: top;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.right {
+			grid-area: right;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.bottom {
+			grid-area: bottom;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.topic {
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="left">
+			<h2><B>LEO</B></h2>
+			<p class="topic">Leo ♌ (Ancient Greek: Λέων, romanized: Léōn, Latin for "lion") is the fifth sign of the zodiac. It corresponds to the constellation Leo and comes after Cancer and before Virgo. The traditional Western zodiac associates Leo with the period between about July 23 and August 22,[2] and the sign spans the 120th to 150th degree of celestial longitude.
+
+				Leo is associated with fire, accompanied by Aries and Sagittarius, and its modality is fixed. The constellation Leo is associated with the mythological Nemean lion
+
+				In astrology, Cancer is the cardinal sign of the Water trigon, which is made up of Cancer, Pisces, and Scorpio.
+				 It is one of the six negative signs, and its ruling planet is the Moon. Though some depictions of Cancer feature a 
+				 lobster or crayfish, the sign is most often represented by the crab</p>
+		</div>
+		<div class="top">
+			<h2><b>INDIAN MYTHOLOGY</b></h2>
+			<p class="topic">Surya was a primary deity in veneration by the characters of the Mahabharata and Ramayana, along with Shiva. Surya is depicted with a Chakra, also interpreted as Dharmachakra. Surya is the lord of Simha (Leo), one of the twelve constellations in the zodiac system of Hindu astrology.</p>
+		</div>
+		<div class="right">
+			<h2><b>HISTORY</b></h2>
+			<p class="topic">Egyptians worshipped the constellation, which they referred to as "Knem", because it was present during the flooding of the Nile River. This event signified plentiful harvests for the upcoming year, and the people interpreted it as a gift from the earth. Ruler of Egypt, Tutankhamun's gold throne features lion heads where the seat and front legs meet, as well as clawed feet at the end of each leg, symbolizing power and royalty.</p>
+		</div>
+		<div class="bottom">
+			<h2><b>GREEK MYTHOLOGY</b></h2>
+			<p class="topic">In Greek mythology, Leo was identified as the Nemean Lion which was killed by Heracles (Hercules to the Romans) during the first of his twelve labours. The Nemean Lion would take women as hostages to its lair in a cave, luring warriors from nearby towns to save the damsel in distress, to their misfortune.</p>
+		</div>
+	</div>
+</body>
+</html>

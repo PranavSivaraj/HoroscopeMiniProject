@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Webpage</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-image: url('aries3.jpeg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size:140%;
+		}
+		img {
+			max-width: 100%;
+		height: auto;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr 1fr;
+			grid-template-areas:
+				"left left"
+				"top top"
+				"right bottom";
+			grid-gap: 50px;
+		}
+		.left {
+			grid-area: left;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.top {
+			grid-area: top;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.right {
+			grid-area: right;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.bottom {
+			grid-area: bottom;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.topic {
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="left">
+			<h2><B>INTRO</B></h2>
+			<p class="topic">Aries ♈is the first astrological sign in the zodiac, spanning the first 30 degrees of celestial longitude , and originates from the Aries constellation. Under the tropical zodiac, the Sun transits this sign from approximately March 21 to April 19 each year.[2] This time-duration is exactly the first month of the Solar Hijri calendar 
+
+                According to the tropical system of astrology, the Sun enters the sign of Aries when it reaches the March equinox, typically on March 21.</p>
+		</div>
+		<div class="top">
+			<h2><b>INDIAN MYTHOLOGY</b></h2>
+			<p class="topic">In Hindu astrology, Aries, called Mesha in Sanskrit, is an important sign because it represents energy and action, much like its ruling planet, Mars. It's the first ofthe zodiac signs and is linked to new beginnings and the powerful force of creation, which is a key part of Vedic astrology.</p>
+		</div>
+		<div class="right">
+			<h2><b>HISTORY</b></h2>
+			<p class="topic">Aries is one of the six positive signs of the zodiac and itsone of the four modality cardinal of the zodiac. Aries is one of the three fire signs in the zodiac, along with Leo and Sagittarius. The ruling planet is Mars.Individuals born while the Sun is in this sign may be called Ariens. The color for Aries is red. The opposite zodiac sign to Aries is Libra.
+
+                The equivalent in the Hindu solar calendar is Meṣa.</p>
+		</div>
+		<div class="bottom">
+			<h2><b>GREEK MYTHOLOGY</b></h2>
+			<p class="topic">In Greek Mythology, the symbol of the ram is based on the Chrysomallus, the flying ram that rescued Phrixus and Helle, the children of the Boeotian king Athamas and provided the Golden Fleece. There is no link between Aries and Ares, the god of war, often pictured with a vulture and whose origin stems from ἀρή (arē), the Ionic form of the Doric ἀρά (ara), "bane, ruin, curse, imprecation".</p>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Webpage</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-image: url('taurus.jpg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size:140%;
+		}
+		img {
+			max-width: 100%;
+		height: auto;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr 1fr;
+			grid-template-areas:
+				"left left"
+				"top top"
+				"right bottom";
+			grid-gap: 50px;
+		}
+		.left {
+			grid-area: left;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.top {
+			grid-area: top;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.right {
+			grid-area: right;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.bottom {
+			grid-area: bottom;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.topic {
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="left">
+			<h2><B>TAURUS</B></h2>
+			<p class="topic">Taurus ♉(Ancient Greek: Ταῦρος, romanized: Taûros, Latin for "bull") is the second astrological sign in the modern zodiac. It spans from 30° to 60° of the zodiac. This sign belongs to the Earth element or triplicity, as well as a fixed modality, quality, or quadruplicity. It is a Venus-ruled sign, the Moon is in its exaltation here at exactly 3°. The Sun transits this sign from approximately April 20 until May 20 in western astrology.[2] Taurus is one of the three earth signs, alongside Capricorn and Virgo. Taurus's opposite sign is Scorpio.</p>
+		</div>
+		<div class="top">
+			<h2><b>INDIAN MYTHOLOGY</b></h2>
+			<p class="topic">>Vrsabha is also an astrological sign in Indian horoscope systems, corresponding to Taurus. Vrsabha is also the twelfth month in the Darian calendar for the planet Mars, when the Sun traverses the central sector of the constellation Taurus as seen from Mars.</p>
+		</div>
+		<div class="right">
+			<h2><b>HISTORY</b></h2>
+			<p class="topic">The bestial sign of Taurus is associated with several myths and bull worship from several ancient cultures. It was the first sign of the zodiac established among the Mesopotamians, who called it "The Great Bull of Heaven," as it was the constellation through which the Sun rose on the vernal equinox at that time,[3] that is the Early Bronze Age, from about 4000 BC to 1700 BC.</p>
+		</div>
+		<div class="bottom">
+			<h2><b>GREEK MYTHOLOGY</b></h2>
+			<p class="topic">A second Greek myth portrays Taurus as Io, a mistress of Zeus. To hide his lover from his wife Hera, Zeus changed Io into the form of a heifer. Greek mythographer Acusilaus marks the bull Taurus as the same that formed the myth of the Cretan Bull, one of The Twelve Labors of Heracles.</p>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f5f5f5;
+        animation: background-animation 10s infinite;
+      }
+
+      @keyframes background-animation {
+        0% {
+          background-image: linear-gradient(to right, #401e0d, #231515);
+        }
+        50% {
+          background-image: linear-gradient(to right, #06272f, #03272a);
+        }
+        100% {
+          background-image: linear-gradient(to right, #281106, #280809);
+        }
+      }
+
+      .horoscope-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .horoscope-frame {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 250px;
+        height: 250px;
+        margin: 10px;
+        border-radius: 50%;
+        background-size: cover;
+        animation: rotate 30s infinite linear;
+      }
+
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+
+      .horoscope-name {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="horoscope-container">
+      <div class="horoscope-frame" style="background-image: url('star1.jpg');">
+        <div class="horoscope-name">Aries</div>
+      </div>
+      <div class="horoscope-frame" style="background-image: url('star2.jpg');">
+        <div class="horoscope-name">Taurus</div>
+      </div>
+      <div class="horoscope-frame" style="background-image: url('star3.jpg');">
+        <div class="horoscope-name">Gemini</div>
+      </div>
+      <div class="horoscope-frame" style="background-image: url('star4.jpeg');">
+        <div class="horoscope-name">Cancer</div>
+      </div>
+      <div class="horoscope-frame" style="background-image: url('star5.jpeg');">
+        <div class="horoscope-name">Leo</div>
+      </div>
+      <div class="horoscope-frame" style="background-image: url('star6.jpeg');">
+        <div class="horoscope-name">Virgo</div>
+      </div>
+      <div class="horoscope-frame" style="background-image: url('star7.jpeg');">
+        <div class="horoscope-name">Libra</div>
+      </div>
+      <div class="horoscope-frame" style="background-image: url('star8.jpeg');">
+        <div class="horoscope-name">Scorpio</div>
+      </div>
+      <div class="horoscope-frame" style="background-image: url('star9.jpeg');">
+        <div class="horoscope-name">Sagittarius</div>
+      </div>
+<div class="horoscope-frame" style="background-image: url('star10.jpeg');">
+        <div class="horoscope-name">Capricorn</div>
+      </div>
+      <div class="horoscope-frame" style="background-image: url('star11.jpeg');">
+        <div class="horoscope-name">Aquarius</div>
+      </div>
+      <div class="horoscope-frame" style="background-image: url('star12.jpeg');">
+        <div class="horoscope-name">Pisces</div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Webpage</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-image: url('gemini.jpeg');
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size:140%;
+		}
+		img {
+			max-width: 100%;
+		height: auto;
+		}
+		.container {
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 20px;
+			display: grid;
+			grid-template-columns: 1fr 1fr;
+			grid-template-rows: 1fr 1fr;
+			grid-template-areas:
+				"left left"
+				"top top"
+				"right bottom";
+			grid-gap: 50px;
+		}
+		.left {
+			grid-area: left;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.top {
+			grid-area: top;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.right {
+			grid-area: right;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.bottom {
+			grid-area: bottom;
+			background-color: rgba(255, 255, 255, 0.5);
+			padding: 20px;
+		}
+		.topic {
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="left">
+			<h2><B>GEMINI</B></h2>
+			<p class="topic">Gemini (♊︎) (/ˈdʒɛmɪnaɪ/ JEM-in-eye [2] Greek: Δίδυμοι, romanized: Dídymoi, Latin for "twins") is the third astrological sign in the zodiac. Under the tropical zodiac, the sun transits this sign between about May 21 to June 21.[3] Gemini is represented by the twins, Castor and Pollux,[4] known as the Dioscuri in Greek mythology. It is known as a positive, mutable sign.</p>
+		</div>
+		<div class="top">
+			<h2><b>INDIAN MYTHOLOGY</b></h2>
+			<p class="topic">>In Hindu lore, Budha is portrayed as a youthful deity with a radiant countenance, symbolizing the curiosity and agility of the Gemini personality. Budha's quick wit, eloquence, and ability to navigate multiple perspectives reflect the natural traits of those born under the sign of Gemini.</p>
+		</div>
+		<div class="right">
+			<h2><b>HISTORY</b></h2>
+			<p class="topic">In Babylonian astronomy, the stars Pollux and Castor were known as the Great Twins. Their names were Lugal-irra and Meslamta-ea, meaning "The Mighty King" and "The One who has arisen from the Underworld". Both names are titles of Nergal. Also could be referencing Zeus and Hades.</p>
+		</div>
+		<div class="bottom">
+			<h2><b>GREEK MYTHOLOGY</b></h2>
+			<p class="topic">In Greek mythology, Gemini is associated with the myth of Castor and Pollux, a pair of twins conceived by different fathers. Zeus, who seduced Leda and conceived Pollux while Tyndareus, the king of Sparta and Leda's husband, conceived Castor. When Castor died, because he was a mortal, Pollux begged his father Zeus to give Castor immortality, which was done through uniting them together in the heavens.</p>
+		</div>
+	</div>
+</body>
+</html>
